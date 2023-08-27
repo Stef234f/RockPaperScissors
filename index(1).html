@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+    <div class="first">
+        <h1 id="title"><a href="#"><span id="element">Rock</span></a></h1></div>
+    <div id="icons">
+        <a href="https://www.facebook.com"><i class="fab fa-facebook" id="1"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram" id="1"></i></a>
+       <a href="https://www.whatsapp.com"><i class="fab fa-whatsapp" id="1"></i></a></div>
+    <div class="second">
+        <h2>Computer Choice: <span id="computerchoice"></span></h2>
+        <h2>User Choice: <span id="userchoice"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+    </div>
+    <div class="buttons">
+        <button id="Rock">Rock</button>
+        <button id="Paper">Paper</button>
+        <button id="Scissors">Scissors</button>
+    </div>
+    <div class="range">
+        <h2 id="swipe">Swipe to your Preferred Background Color</h2>
+        <input type="range" id="thisrange">
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed('#element', {
+        strings: ['Rock', 'Paper', 'Scissors'],
+        typeSpeed: 150,
+        backSpeed: 50,
+        loop: true,
+         });
+    </script>
+</body>
+</html>
