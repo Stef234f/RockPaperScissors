@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+}
+.first  {
+    background-color: #222222;
+    color: white;
+    font-family: serif;
+    text-align: center;
+    transition: 1s;
+    height: 75px;
+    padding: 10px 0 10px 0;
+    border-radius: 20px;
+    box-shadow: 0 1px 8px black;
+    z-index: 1;
+}
+.first:hover {
+    width: 100%;
+    background-color: white;
+}
+# title span a #element{
+  text-decoration: none;
+}
+a #element{
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+}
+a #element:hover {
+    color: black;
+}
+a::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    bottom: -10px;
+    left: 0;
+    transition: 1s;
+}
+a:hover::after {
+    width: 100%;
+    background-color: black;
+    height: 5px;
+}
+button {
+    height: 65px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: grey;    
+    border-radius: 30px;
+}
+.second{
+    display: grid;
+    grid-row: span 3;
+    row-gap: 2px;
+    background-color: #696969;
+    border-radius: 30px;
+    padding-left: 15px;
+    font-family: serif;
+}
+span {
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+}
+.thisrange {
+    background-color: #222222;
+    height: 50px;
+}
+i {
+    color: black;
+}
+#icons {
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 250px;
+    font-size: 40px;
+}
